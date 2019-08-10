@@ -1861,6 +1861,7 @@
    * Use M914 X Y Z to live-adjust the sensitivity.
    *  Higher: LESS sensitive. (Too high => failure to trigger)
    *   Lower: MORE sensitive. (Too low  => false positives)
+   *  For the TMC2209, it's the other way around - Higher value makes the homing MORE sensitive.
    *
    * It is recommended to set [XYZ]_HOME_BUMP_MM to 0.
    *
